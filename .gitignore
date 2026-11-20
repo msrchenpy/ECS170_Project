@@ -18,6 +18,12 @@ _tmp_*
 # ---- the written report is submitted separately (Canvas) --------------------
 Stage_2_Report.docx
 
+# ---- Stage 4: derived caches and GPU kernel caches --------------------------
+# the parsed IMDb / joke token caches and the MIOpen kernel cache are rebuilt on
+# the first run and are far larger than the results they produce
+result/stage_4_result/cache/
+result/stage_4_result/miopen/
+
 # ---- large data sets (download them separately, see README) ------------------
 # the CSVs stay out of the repository; the small ReadMe ships with it
 data/**/*.csv
