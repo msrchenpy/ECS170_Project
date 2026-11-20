@@ -18,6 +18,7 @@ _tmp_*
 # ---- the written report is submitted separately (Canvas) --------------------
 Stage_2_Report.docx
 
-# ---- local copies of the data sets (download them separately, see README) ---
-data/stage_2_data/
+# ---- large data sets (download them separately, see README) ------------------
+# the CSVs stay out of the repository; the small ReadMe ships with it
+data/**/*.csv
 data/*.csv
